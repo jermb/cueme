@@ -3,3 +3,77 @@
 @tailwind utilities;
 
 
+.border {
+  border: 1px solid black;
+}
+
+#chatBox {
+  height: 80%;
+  overflow-y: scroll;
+  max-width: 950px;
+  width: 95%;
+}
+
+#content {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#promptButton {
+  height: 50px;
+}
+
+.button-upload {
+  cursor: pointer;
+  font: inherit;
+  min-height: 48px;
+  min-width: 48px;
+}
+
+/* #imageButton::-webkit-file-upload-button {
+  visibility: hidden;
+}
+#imageButton::before {
+  content: 'Select some files';
+  display: inline-block;
+  background: linear-gradient(top, #f9f9f9, #e3e3e3);
+  border: 1px solid #999;
+  border-radius: 3px;
+  padding: 5px 8px;
+  outline: none;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  cursor: pointer;
+  text-shadow: 1px 1px #fff;
+  font-weight: 700;
+  font-size: 10pt;
+}
+#imageButton:hover::before {
+  border-color: black;
+}
+#imageButton:active::before {
+  background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+} */
+
+.chatMessage {
+  max-width: 60%;
+  width: fit-content;
+  margin: 5px 5px;
+}
+
+.good {
+  color: rgba(0, 128, 0, .5);
+  font-size: small;
+}
+
+.bad {
+  color: rgba(128, 0, 0, .5);
+  font-size: small;
+}
+
+.neutral {
+  color: rgba(128, 128, 128, 0.5);
+  font-size: small;
+}
